@@ -65,15 +65,15 @@ module.exports = function(grunt) {
                 }
             }
         },
-        // htmlhint: {
-        //     options: {
-        //         htmlhintrc: 'gruntConfig/.htmlhintrc'
-        //     },
-        //     dist: [
-        //         'app/docs/html/**/*.html',
-        //         'app/docs/inclode/**/*.html'
-        //     ]
-        // },
+        htmlhint: {
+            options: {
+                htmlhintrc: 'gruntConfig/.htmlhintrc'
+            },
+            dist: [
+                'app/docs/html/**/*.html',
+                'app/docs/inclode/**/*.html'
+            ]
+        },
 
 // css task
         less: {

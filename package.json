@@ -39,6 +39,7 @@
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-csscomb": "^3.0.1",
+    "grunt-htmlhint": "^0.4.1",
     "grunt-includes": "^0.5.1",
     "grunt-newer": "^1.1.1",
     "jshint-stylish": "^2.0.1",
